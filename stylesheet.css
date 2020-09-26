@@ -1,0 +1,630 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+body{
+    overflow-x: hidden;
+} 
+a
+{
+    text-decoration: none;
+    color:black;
+}
+/* navbar portion */
+#image
+{
+    width:100%;
+    height:100vh;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+.navbar
+{
+    position:relative;
+    display:flex;
+    justify-content: space-between;
+    cursor:pointer;
+}
+.navbar .logo
+{
+    margin:25px;
+    font-size:1.2rem;
+}
+ul{
+    display:flex;
+    margin-top:25px;
+}
+ul li{
+    list-style:none;
+    margin-right:20px;
+    padding:5px;
+    font-size:1.2rem;
+}
+div ul button
+{
+    padding:0 15px;
+    border:none;
+    background-color:white;
+    border:1px solid black;
+    margin-right:15px;
+    cursor:pointer;
+}
+div ul button:hover
+{
+   color:white;
+   background-color:rgb(133, 192, 133);
+}
+.translator,.rupee
+{
+    cursor:none;
+}
+/* header portion */
+header .content
+{
+    position:relative;
+    padding: 0 0 0 150px;
+    margin-top:13%;
+    display:block;
+}
+header .content h2{
+    margin-bottom:1%;
+}
+.search-text
+{
+    border:none;
+    padding:10px;
+    width:30%;
+}
+.search
+{
+    background-color:rgb(133, 192, 133);
+    border:none;
+    border:1px solid black;
+    padding:1%;
+    color:white;
+    margin-bottom:1%;
+}
+.search:hover
+{
+    background-color:rgb(106, 189, 124);
+}
+.popular-content
+{
+    margin-right:4%;
+}
+.popular-contents
+{
+    padding:0.6%;
+}
+                         /* section 2 which contains data of explore markeplace */
+.explore_marketplace
+{
+    position: relative;
+    padding-top:22%;
+    padding-left:4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.list_of_marketplace
+{
+    margin-top:5%;
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:20px;
+    grid-template-areas:
+    "logo1 logo2 logo3 logo4"
+    "logo5 logo6 logo7 logo8" ;
+    transition:all 1s linear;
+}
+.logo1
+{
+    grid-area:logo1;
+   
+}
+.logo2
+{
+    grid-area:logo2;
+}
+.logo3
+{
+    grid-area:logo3;
+}
+.logo4
+{
+    grid-area:logo4;
+}
+.logo5
+{
+    grid-area:logo5;
+}
+.logo6
+{
+    grid-area:logo6;
+}
+.logo7
+{
+    grid-area:logo7;
+}
+.logo8
+{
+    grid-area:logo8;
+}
+.logo1:hover
+{
+    opacity:0.7;
+    cursor: pointer;
+
+}
+.logo2:hover
+{
+    opacity:0.7;
+    cursor: pointer;
+}
+.logo3:hover
+{
+    opacity:0.7;
+    cursor: pointer;
+}
+.logo4:hover
+{
+    opacity:0.7;
+    cursor: pointer;
+}
+.logo5:hover
+{
+    opacity:0.7;
+    cursor: pointer;
+}
+.logo6:hover
+{
+    opacity:0.7;
+    cursor: pointer;
+}
+.logo7:hover
+{
+    opacity:0.7;
+    cursor: pointer;
+}
+.logo8:hover
+{
+    opacity:0.7;
+    cursor: pointer;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    display:block;
+}
+
+
+                             /* section 3 which contains image and its information */
+.information
+{
+    margin-top:8%;
+    display:flex;
+    justify-content:space-evenly ;
+}
+.heading_section
+{
+    padding: 2%;
+    align-items: center;
+}
+.detail_info1
+{
+    padding:2%;
+    margin:2%;
+}
+.detail_info1 h3
+{
+    margin:1%;
+}
+.detail_info1 p
+{
+    margin:1%;
+}
+.details_image
+{
+    border-radius: 2%;
+    width:100%;
+}
+.details_image:hover
+{
+    opacity:0.8;
+}
+                              /* footer section */
+footer{
+    margin-top:3%;
+    margin-bottom:0;
+    background-color:rgb(186, 199, 199);
+    padding:2%;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.social_icon a{
+    text-decoration: none;
+    color:black;
+}
+.social_icon a i{
+    padding-left:5%;
+}
+ .social_icon{
+    padding-right:3%;
+    cursor:pointer;
+}
+.social_details
+{
+    padding-right:3%;
+    display:flex;
+}
+.social_details h2{
+    padding-left:2%;
+}
+.social_details h5{
+    padding-left:5%;
+    cursor:pointer;
+}
+.social_details p{
+    padding-left:5%;
+}
+                      /* video section */
+
+video{
+    width:100%;
+    height:100%;
+    object-fit: fill;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    opacity:0.9;
+    
+}
+.seller-section{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-top:10%;
+}
+.seller{
+    color:white;
+    font-size: 2.7rem;
+    margin-top: 1%;
+}
+.seller-head{
+    color:white;
+    font-size: 1.7rem;
+}
+.seller-section button{
+    background-color:rgb(118, 170, 118);
+    color:white;
+    font-weight: bold;
+    margin-top: 1%;
+    padding:1%;
+    outline:none;
+    font-size: 1.1rem;
+}
+                                 /* work section */
+.work
+{
+    position:relative;
+    padding-top: 20%;
+}
+.work-head
+{
+    text-align:center;
+    font-size: 2.5rem;
+
+}
+.work-section
+{
+    padding-top:2%;
+    display:flex;
+    list-style: none;
+
+}
+.work-section li{
+    text-align:center;
+    padding:1%;
+}
+.work-section li h3{
+    margin-top: 1%;
+    padding:2%;
+    font-weight:bold;
+    font-size: 1.7rem;
+}
+.work-section li p{
+    padding:2%;
+    margin-top: 1%;
+    font-size: 1.8rem;
+}
+                             /* buyer stories */
+                             .buyer-stories
+                             {
+                                 padding-left:5%;
+                                 padding-right: 3%;
+                                 display: grid;
+                                grid-template-columns: repeat(4,1fr);
+                                grid-template-rows: auto;
+                                grid-template-areas: 
+                                "buyer-image1 buyer-stories1 buyer-image2 buyer-stories2"
+                                "buyer-image3 buyer-stories3 buyer-image4 buyer-image4";
+                             }
+                             .buyer-image1
+                             {
+                                 grid-area:"buyer-image1";
+                                 padding:5%;
+
+                             }
+                             .buyer-stories1
+                             {
+                                 width:100%;
+                                grid-area:"buyer-stories1";
+                                padding:5%;
+                                background-color: rgb(233, 227, 227);
+                             }
+                             .buyer-image2
+                             {
+                                padding:5%;
+                                grid-area:"buyer-image1";
+                             }
+                             .buyer-stories2
+                             {
+                                width:100%;
+                                grid-area:"buyer-stories1";
+                                padding:5%;
+                                background-color: rgb(233, 227, 227);
+                             }
+                             .buyer-image3
+                             {
+                                padding:5%;
+                                grid-area:"buyer-image1";
+                             }
+                             .buyer-stories3
+                             {
+                                width:100%;
+                                grid-area:"buyer-stories1";
+                                padding:5%;
+                                background-color:  rgb(233, 227, 227);
+                             }
+                             .buyer-image4
+                             {
+                                padding:5%;
+                                grid-area:"buyer-image1";
+                             }
+                             .buyer-stories4
+                             {
+                                width:100%;
+                                grid-area:"buyer-stories1";
+                                padding:5%;
+                                background-color: rgb(233, 227, 227);
+                             }
+                             .buyer{
+                                 text-align: center;
+                                 font-size: 2.7rem;
+                                 font-weight: bold;
+                                 margin-top:8%; 
+                                 margin-bottom:5%;
+                             }
+                            
+                                         /* home page media query */
+@media(max-width:921px){
+    
+    .explore_marketplace{
+        padding-top:40%;
+    }
+}
+@media (max-width:918px)
+{
+    .explore_marketplace
+    {
+        padding-top:40%;
+    }
+}
+@media (max-width:886px)
+{
+    .translator,.rupee,.no_result
+    {
+        display:none;
+    }
+    .work{
+        margin-top:10%;
+    }
+    .work-section li h3{
+      font-size:1.2rem;
+    }
+    .work-section li p{
+    
+        font-size: 0.9rem;
+
+    }
+    .work-head{
+        font-size: 1.8rem;
+    }
+    .buyer{
+        font-size: 1.8rem;
+    }
+    .buyer-stories1
+    {
+        font-size: 1.2rem;
+        font-weight:normal;
+    }
+    .buyer-stories2
+    {
+        font-size: 1.2rem;
+        font-weight:normal;
+    }
+    .buyer-stories3
+    {
+        font-size: 1.2rem;
+        font-weight:normal;
+    }
+    .buyer-stories4
+    {
+        font-size: 1.2rem;
+        font-weight:normal;
+    }
+}
+
+@media(max-width:896px)
+{
+    .explore_marketplace{
+        padding-top:30%;
+    }
+   
+}
+@media(max-width:837px)
+{
+    .explore_marketplace{
+        padding-top:45%;
+    }
+   
+}
+@media(max-width:813px)
+{
+    .explore_marketplace{
+        padding-top:40%;
+    }
+   
+}
+@media(max-width:785px){
+     .explore_marketplace{
+         padding-top:40%;
+     }
+     .detail2,.detail3
+     {
+         display:none;
+     }
+}
+
+@media(max-width:670px)
+{
+    .explore_marketplace{
+        padding-top: 40%;
+    }
+    .information{
+        display:flex;
+        flex-direction:column;
+    }
+}
+@media(max-width:605px)
+{
+    .explore_marketplace{
+        padding-top: 40%;
+    }
+}
+@media(max-width:605px){
+    .explore_marketplace{
+        padding-top:60%;
+    }
+    .content{
+        padding-top:10%;
+        align-items: start;
+        justify-content: center;
+    }
+}
+@media(max-width:517px){
+    .explore_marketplace{
+        padding-top:60%;
+    }
+    .menu
+    {
+        padding-left: 0;
+        padding-right:0;
+    }
+}
+@media(max-width:485px){
+    .list_of_marketplace{
+        grid-template-areas:
+        'logo1 logo2 logo3'
+        'logo4 logo5 logo6'
+        'logo7 logo8 logo8';
+        
+    }
+    .detail4
+    {
+        display:none;
+    }
+}
+@media(max-width:376px){
+   .explore_marketplace{
+       padding-top: 30%;
+   }
+}
+                                            /* fiver service */
+                                            @media(max-width:977px)
+                                            {
+                                               .work
+                                               {
+                                                   padding-top: 30%;
+                                               }
+                                            }
+                                            @media(max-width:951px)
+                                            {
+                                               .fa{
+                                                     font-size:fa-1x;
+                                               }
+                                            }
+                                            @media(max-width:771px)
+                                            {
+                                               .work
+                                               {
+                                                   padding-top: 40%;
+                                               }
+                                            }
+                                            @media(max-width:721px)
+                                            {
+                                               .work-list h3
+                                               {
+                                                    font-size: 1.3rem;
+                                               }
+                                               .work-list p
+                                               {
+                                                   font-size: 0.7rem;
+                                               }
+                                            }
+                                            @media(max-width:659px)
+                                            {
+                                               .work
+                                               {
+                                                   margin-top: 20%;
+                                               }
+                                            }
+                                            @media(max-width:559px)
+                                            {
+                                               .buyer-stories
+                                               {
+                                                   grid-template-areas: 
+                                                   "buyer-image1 buyer-stories1"
+                                                   "buyer-image2 buyer-stories2"
+                                                   "buyer-image3 buyer-stories3"
+                                                   "buyer-image4 buyer-stories4";
+                                               }
+                                            }
+                                            @media(max-width:541px)
+                                            {
+                                               .work{
+                                                   padding-top: 50%;
+                                               }
+                                               .seller-head{
+                                                font-size: 1.0rem;
+                                            }
+                                              
+                                               
+                                            }
+                                            @media(max-width:465px)
+                                            {
+                                                .work{
+                                                    padding-top:40%;
+                                                }
+                                               
+
+                                            }
+
+                                    
+                                           
